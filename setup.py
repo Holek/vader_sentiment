@@ -12,8 +12,8 @@ def read(*parts):
         return f.read()
 
 setup(
-  name = 'vaderSentiment',
-  #packages = ['vaderSentiment'], # this must be the same as the name above
+  name = 'vader_sentiment',
+  #packages = ['vader_sentiment'], # this must be the same as the name above
   packages = find_packages(exclude=['tests*']), # a better way to do it than the line above -- this way no typo/transpo errors
   include_package_data=True,
   version = '3.2.1',
@@ -23,8 +23,8 @@ setup(
   author = 'C.J. Hutto',
   author_email = 'cjhutto@gatech.edu',
   license = 'MIT License: http://opensource.org/licenses/MIT',
-  url = 'https://github.com/cjhutto/vaderSentiment', # use the URL to the github repo
-  download_url = 'https://github.com/cjhutto/vaderSentiment/archive/master.zip', 
+  url = 'https://github.com/Holek/vader_sentiment', # use the URL to the github repo
+  download_url = 'https://github.com/Holek/vader_sentiment/archive/master.zip',
   keywords = ['vader', 'sentiment', 'analysis', 'opinion', 'mining', 'nlp', 'text', 'data', 
               'text analysis', 'opinion analysis', 'sentiment analysis', 'text mining', 'twitter sentiment',
               'opinion mining', 'social media', 'twitter', 'social', 'media'], # arbitrary keywords

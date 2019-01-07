@@ -20,7 +20,7 @@ Many thanks to George Berry, Ewan Klein, Pierpaolo Pantone for key contributions
 #. Refactoring for Python 3 compatibility, improved modularity, and incorporation into `[NLTK] <http://www.nltk.org/_modules/nltk/sentiment/vader.html>`_ ...many thanks to Ewan & Pierpaolo.
 #. Restructuring for much improved speed/performance, reducing the time complexity from something like O(N^4) to O(N)...many thanks to George.
 #. Simplified pip install and better support for vaderSentiment module and component import. (Dependency on vader_lexicon.txt file now uses automated file location discovery so you don't need to manually designate its location in the code, or copy the file into your executing code's directory.)
-#. More complete demo in the ``__main__`` for ``vaderSentiment.py``. The demo has:
+#. More complete demo in the ``__main__`` for ``vader_sentiment.py``. The demo has:
 
 	* examples of typical use cases for sentiment analysis, including proper handling of sentences with:
 
@@ -73,8 +73,8 @@ There are a couple of ways to install and use VADER sentiment:
     ``> pip install vaderSentiment``
 #. Or, you might already have VADER and simply need to upgrade to the latest version, e.g., 
     ``> pip install --upgrade vaderSentiment``
-#. You could also clone this `[GitHub repository] <https://github.com/cjhutto/vaderSentiment>`_ 
-#. You could download and unzip the `[full master branch zip file] <https://github.com/cjhutto/vaderSentiment/archive/master.zip>`_ 
+#. You could also clone this `[GitHub repository] <https://github.com/Holek/vader_sentiment>`_
+#. You could download and unzip the `[full master branch zip file] <https://github.com/Holek/vader_sentiment/archive/master.zip>`_
 
 In addition to the VADER sentiment analysis Python module, options 3 or 4 will also download all the additional resources and datasets (described below).
 
